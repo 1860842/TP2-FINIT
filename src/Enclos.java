@@ -1,9 +1,7 @@
 public class Enclos {
     private Famille famille;
     private String nom;
-    private int nbGardiens;
-    private int nbAnimaux;
-    private int capaciteMax;
+    private int nbGardiens, nbAnimaux, capaciteMax;
     private Animal[] animaux;
     public Enclos(Famille famille, String nom, int capaciteMax){
         this.famille = famille;
@@ -12,21 +10,22 @@ public class Enclos {
         this.animaux = new Animal[capaciteMax];
     }
     public int augmenterGardiens(){
-        return nbGardiens++;
+        return ++nbGardiens;
     }
     public int diminuerGardiens(){
         if(nbGardiens < 1)
             return nbGardiens;
         else
-            return nbGardiens--;
+            return --nbGardiens;
     }
     public boolean ajouterAnimal(Animal animal){
-        if(nbAnimaux <= capaciteMax && animal.getFamille() == (famille)) {
+        boolean ajouter = false;
+        if(nbAnimaux < capaciteMax && animal.getFamille() == (famille)) {
             animaux[nbAnimaux++] = animal;
             System.out.println(animal.getNom() + " le " + animal.getEspece() + " a été ajouté à l'enclos '" + this.nom + "'.");
-            return true;
+            ajouter = true;
         }
-            return false;
+        return ajouter;
     }
     // Il est censé être void dans l'énoncé, mais dans EnclosTest, le test doit afficher true, donc boolean
     public boolean ajouterAnimal(Animal[] animaux) {

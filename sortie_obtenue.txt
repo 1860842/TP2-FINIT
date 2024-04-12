@@ -58,44 +58,44 @@ Il y a 2 gardien(s) assigné(s) à cet enclos.
 [Alice, 13 ans, 3 enclos restants] entre dans le zoo.
 [Alice, 13 ans, 3 enclos restants] entre dans l'enclos 'Les Poissons'
 3 animaux et 1 gardiens sont présents: M. Smith, 
-[Alice, 13 ans, 2 enclos restants] quitte l'enclos après 5 minutes.
+[Alice, 13 ans, 2 enclos restants] quitte l'enclos après 17 minutes.
 [Alice, 13 ans, 2 enclos restants] entre dans l'enclos 'Les Mammifères'
 3 animaux et 2 gardiens sont présents: R. Berry, L. Skelgaard, 
-[Alice, 13 ans, 1 enclos restants] quitte l'enclos après 7 minutes.
+[Alice, 13 ans, 1 enclos restants] quitte l'enclos après 3 minutes.
 [Alice, 13 ans, 1 enclos restants] entre dans l'enclos 'Les Oiseaux'
 2 animaux et 2 gardiens sont présents: H. Bourassa, P. Grandbois, 
-[Alice, 13 ans, 0 enclos restants] quitte l'enclos après 14 minutes.
-[Alice, 13 ans, 0 enclos restants] quitte le zoo après un total de 26 minutes.
+[Alice, 13 ans, 0 enclos restants] quitte l'enclos après 21 minutes.
+[Alice, 13 ans, 0 enclos restants] quitte le zoo après un total de 41 minutes.
 [Robert, 65 ans, 1 enclos restants] entre dans le zoo.
 [Robert, 65 ans, 1 enclos restants] entre dans l'enclos 'Les Reptiles'
 2 animaux et 1 gardiens sont présents: F. Lyding, 
-[Robert, 65 ans, 0 enclos restants] quitte l'enclos après 17 minutes.
-[Robert, 65 ans, 0 enclos restants] quitte le zoo après un total de 17 minutes.
+[Robert, 65 ans, 0 enclos restants] quitte l'enclos après 4 minutes.
+[Robert, 65 ans, 0 enclos restants] quitte le zoo après un total de 4 minutes.
 [Judith, 56 ans, 2 enclos restants] entre dans le zoo.
 [Judith, 56 ans, 2 enclos restants] entre dans l'enclos 'Les Oiseaux'
 2 animaux et 2 gardiens sont présents: H. Bourassa, P. Grandbois, 
-[Judith, 56 ans, 1 enclos restants] quitte l'enclos après 0 minutes.
+[Judith, 56 ans, 1 enclos restants] quitte l'enclos après 27 minutes.
 [Judith, 56 ans, 1 enclos restants] entre dans l'enclos 'Les Mammifères'
 3 animaux et 2 gardiens sont présents: R. Berry, L. Skelgaard, 
-[Judith, 56 ans, 0 enclos restants] quitte l'enclos après 20 minutes.
-[Judith, 56 ans, 0 enclos restants] quitte le zoo après un total de 20 minutes.
+[Judith, 56 ans, 0 enclos restants] quitte l'enclos après 25 minutes.
+[Judith, 56 ans, 0 enclos restants] quitte le zoo après un total de 52 minutes.
 [Edgar, 6 ans, 1 enclos restants] entre dans le zoo.
 [Edgar, 6 ans, 1 enclos restants] entre dans l'enclos 'Les Cétacés'
 2 animaux et 1 gardiens sont présents: B. Patel, 
-[Edgar, 6 ans, 0 enclos restants] quitte l'enclos après 9 minutes.
-[Edgar, 6 ans, 0 enclos restants] quitte le zoo après un total de 9 minutes.
+[Edgar, 6 ans, 0 enclos restants] quitte l'enclos après 12 minutes.
+[Edgar, 6 ans, 0 enclos restants] quitte le zoo après un total de 12 minutes.
 
 ======================= FIN DES VISITES =======================
 Le gardien R. Berry (#1006) a été retiré de l'enclos 'Les Mammifères' (1 gardiens).
 Le dernier gardien arrivé au zoo [R. Berry (#1006), 12.5 hrs, enclos 'null'] a été congédié.
 Le gardien H. Bourassa (#1005) a été retiré de l'enclos 'Les Oiseaux' (1 gardiens).
-Le dernier gardien arrivé au zoo [H. Bourassa (#1005), 8.2 hrs, enclos 'null'] a été congédié.
+Le dernier gardien arrivé au zoo [H. Bourassa (#1005), 8.8 hrs, enclos 'null'] a été congédié.
 Le gardien [L. Skelgaard (#1004), 10.5 hrs, enclos 'Les Mammifères'] ne peut pas être congédié car son enclos serait vide.
 
 ======================= LE ZOO APRÈS LES VISITES =======================
 Bienvenue au zoo de Granby!
 Voici la pile des gardiens:
-  5 gardiens: [M. Smith (#1000), 10.1 hrs, enclos 'Les Poissons'] | [B. Patel (#1001), 5.2 hrs, enclos 'Les Cétacés'] | [F. Lyding (#1002), 20.3 hrs, enclos 'Les Reptiles'] | [P. Grandbois (#1003), 15.2 hrs, enclos 'Les Oiseaux'] | [L. Skelgaard (#1004), 10.5 hrs, enclos 'Les Mammifères'] | [+ 5 cellules vides]
+  5 gardiens: [M. Smith (#1000), 10.3 hrs, enclos 'Les Poissons'] | [B. Patel (#1001), 5.2 hrs, enclos 'Les Cétacés'] | [F. Lyding (#1002), 20.1 hrs, enclos 'Les Reptiles'] | [P. Grandbois (#1003), 15.8 hrs, enclos 'Les Oiseaux'] | [L. Skelgaard (#1004), 10.5 hrs, enclos 'Les Mammifères'] | [+ 5 cellules vides]
 Et la file des visiteurs:
   0 éléments: <null>
 Le zoo est peuplé par 12 animaux répartis dans 5 enclos:

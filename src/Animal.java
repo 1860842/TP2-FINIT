@@ -1,11 +1,10 @@
 public class Animal {
     private Famille famille;
-    private String espece;
-    private String nom;
+    private String espece, nom;
     private double poids;
     public Animal(Famille famille, String espece, String nom, double poids){
         this.famille = famille;
-        this.espece = espece;
+        this.espece = espece.toLowerCase().trim();
         this.nom = nom.trim();
         this.poids = poids;
 

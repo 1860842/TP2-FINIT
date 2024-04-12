@@ -1,13 +1,17 @@
 public class FileVisiteur {
     class NoeudVisiteur {
-        Visiteur visiteur;
-        NoeudVisiteur suivant;
+        private Visiteur visiteur;
+        private NoeudVisiteur suivant;
         public NoeudVisiteur(Visiteur visiteur) {
             this.visiteur = visiteur;
         }
-
         public Visiteur getVisiteur() {
             return visiteur;
+        }
+
+        @Override
+        public String toString() {
+            return visiteur.toString();
         }
     }
     private int nbElements;

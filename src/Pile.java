@@ -1,5 +1,5 @@
 public class Pile {
-    final int TAILLE_INITIALE = 5;
+    private final int TAILLE_INITIALE = 5;
     private final int RATIO_AGRANDISSEMENT = 2;
     private int nbElements;
     private Gardien[] gardiens;

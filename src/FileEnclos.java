@@ -1,7 +1,7 @@
 public class FileEnclos {
     class NoeudEnclos {
-        Enclos enclos;
-        NoeudEnclos suivant;
+        private Enclos enclos;
+        private NoeudEnclos suivant;
         public NoeudEnclos(Enclos enclos) {
             this.enclos = enclos;
         }
@@ -10,9 +10,9 @@ public class FileEnclos {
             return enclos;
         }
     }
-    int nbElements;
-    NoeudEnclos premier;
-    NoeudEnclos dernier;
+    private int nbElements;
+    private NoeudEnclos premier;
+    private NoeudEnclos dernier;
     public FileEnclos(){
         this.nbElements = 0;
         this.premier = null;
@@ -49,5 +49,21 @@ public class FileEnclos {
         //nbElements--;
         return aRetourner;
 
+    }
+
+    public int getNbElements() {
+        return nbElements;
+    }
+
+    public void setNbElements(int nbElements) {
+        this.nbElements = nbElements;
+    }
+
+    public NoeudEnclos getPremier() {
+        return premier;
+    }
+
+    public NoeudEnclos getDernier() {
+        return dernier;
     }
 }

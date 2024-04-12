@@ -44,10 +44,11 @@ public class Zoo {
         Enclos enclosDuDernier = pileGardiens.peek().getEnclos();
         if(derniergardien.getEnclos().getNbGardiens() <= 1) {
             System.out.println("Le gardien " + derniergardien.toString() + " ne peut pas être congédié car son enclos serait vide.");
-            return derniergardien;
+            return null;
         } else {
             derniergardien.quitterEnclos();
-            System.out.println("Le gardien " + derniergardien.getNom() + " (#" + derniergardien.getId() + ") a été retiré de l'enclos " + "'" + enclosDuDernier.getNom() + "' ("+ enclosDuDernier.getNbGardiens() + " gardiens).");
+            System.out.println("Le gardien " + derniergardien.getNom() + " (#" + derniergardien.getId() + ") a été retiré de l'enclos " +
+                    "'" + enclosDuDernier.getNom() + "' ("+ enclosDuDernier.getNbGardiens() + " gardiens).");
             System.out.println("Le dernier gardien arrivé au zoo " + derniergardien.toString() + " a été congédié.");
             pileGardiens.pop();
             return derniergardien;
@@ -68,33 +69,26 @@ public class Zoo {
         coutDentre += getNbTotalAnimaux();
 
 
-        for(int i = 0; i < visiteur.especes.length; i++) {
-            String espece = visiteur.especes[i];
+        for(int i = 0; i < visiteur.getEspeces().length; i++) {
+            String espece = visiteur.getEspeces()[i];
             for(int j = 0; j < enclos.length; j++) {
                 Enclos enclo = enclos[j];
                 if(enclo.contientEspece(espece) && enclo.getNbGardiens() > 0) {
-                    visiteur.enclosAVisiter.ajouter(enclo);
+                    visiteur.getEnclosAVisiter().ajouter(enclo);
                     coutDentre += 5.50;
                 }
             }
         }
 
-        /*for(int i = 0; i < enclos.length; i++){
-            for(int j = 0; j < nbDEnclos; j++) {
-                if (enclos[i].contientEspece(visiteur.especes[j]) && enclos[i].nbGardiens > 0) {
-                    visiteur.enclosAVisiter.ajouter(enclos[i]);
-                }
-            }
-        }*/
-
-        if(visiteur.age <= 6)
+        if(visiteur.getAge() <= 6)
             coutDentre = 0;
 
-        if(visiteur.age >= 7 && visiteur.age <= 13 || visiteur.age >= 65)
+        if(visiteur.getAge() >= 7 && visiteur.getAge() <= 13 || visiteur.getAge() >= 65)
             coutDentre *= 0.5;
-        System.out.printf("[%s, %d ans] arrive au zoo; Son entrée coûte %.2f$ et donne accès à %d enclos.\n", visiteur.nom, visiteur.age, coutDentre, visiteur.enclosAVisiter.nbElements);
+        System.out.printf("[%s, %d ans] arrive au zoo; Son entrée coûte %.2f$ et donne accès à %d enclos.\n", visiteur.getNom(),
+                visiteur.getAge(), coutDentre, visiteur.getEnclosAVisiter().getNbElements());
 
-        visiteur.setEnclosChoisis(visiteur.enclosAVisiter);
+        visiteur.setEnclosChoisis(visiteur.getEnclosAVisiter());
         return coutDentre;
     }
     public Visiteur prochainVisiteur(){
