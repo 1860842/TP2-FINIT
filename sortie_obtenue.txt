@@ -1,0 +1,123 @@
+Spike le thon a été ajouté à l'enclos 'Les Poissons'.
+Finn le saumon a été ajouté à l'enclos 'Les Poissons'.
+Neptune le dauphin a été ajouté à l'enclos 'Les Cétacés'.
+Flipper le marsouin a été ajouté à l'enclos 'Les Cétacés'.
+Monty le python a été ajouté à l'enclos 'Les Reptiles'.
+Jaws le alligator a été ajouté à l'enclos 'Les Reptiles'.
+Polly le perroquet a été ajouté à l'enclos 'Les Oiseaux'.
+Apollo le corbeau a été ajouté à l'enclos 'Les Oiseaux'.
+Simba le lion a été ajouté à l'enclos 'Les Mammifères'.
+Zara le zèbre a été ajouté à l'enclos 'Les Mammifères'.
+Le gardien M. Smith (#1000) a été assigné à l'enclos 'Les Poissons' (1 gardiens).
+Le gardien B. Patel (#1001) a été assigné à l'enclos 'Les Cétacés' (1 gardiens).
+Le gardien F. Lyding (#1002) a été assigné à l'enclos 'Les Reptiles' (1 gardiens).
+Le gardien P. Grandbois (#1003) a été assigné à l'enclos 'Les Oiseaux' (1 gardiens).
+Le gardien L. Skelgaard (#1004) a été assigné à l'enclos 'Les Mammifères' (1 gardiens).
+
+======================= LE ZOO AVANT LES VISITES =======================
+Zap le merlan a été ajouté à l'enclos 'Les Poissons'.
+Obélix le sanglier a été ajouté à l'enclos 'Les Mammifères'.
+Le gardien H. Bourassa (#1005) a été assigné à l'enclos 'Les Oiseaux' (2 gardiens).
+Le gardien R. Berry (#1006) a été assigné à l'enclos 'Les Mammifères' (2 gardiens).
+[Alice, 13 ans] arrive au zoo; Son entrée coûte 17.00$ et donne accès à 3 enclos.
+[Robert, 65 ans] arrive au zoo; Son entrée coûte 8.75$ et donne accès à 1 enclos.
+[Judith, 56 ans] arrive au zoo; Son entrée coûte 23.00$ et donne accès à 2 enclos.
+[Edgar, 6 ans] arrive au zoo; Son entrée coûte 0.00$ et donne accès à 1 enclos.
+Le zoo a vendu des billets pour un total de 48.75$.
+
+Bienvenue au zoo de Granby!
+Voici la pile des gardiens:
+  7 gardiens: [M. Smith (#1000), 10.0 hrs, enclos 'Les Poissons'] | [B. Patel (#1001), 5.0 hrs, enclos 'Les Cétacés'] | [F. Lyding (#1002), 20.0 hrs, enclos 'Les Reptiles'] | [P. Grandbois (#1003), 15.0 hrs, enclos 'Les Oiseaux'] | [L. Skelgaard (#1004), 10.0 hrs, enclos 'Les Mammifères'] | [H. Bourassa (#1005), 8.0 hrs, enclos 'Les Oiseaux'] | [R. Berry (#1006), 12.0 hrs, enclos 'Les Mammifères'] | [+ 3 cellules vides]
+Et la file des visiteurs:
+  4 éléments: [Alice, 13 ans, 3 enclos restants] -> [Robert, 65 ans, 1 enclos restants] -> [Judith, 56 ans, 2 enclos restants] -> [Edgar, 6 ans, 1 enclos restants] -> <null>
+Le zoo est peuplé par 12 animaux répartis dans 5 enclos:
+L'enclos 'Les Poissons' contient 3 Poisson:
+  Le thon nommé Spike pèse 100.0 kg
+  Le saumon nommé Finn pèse 100.0 kg
+  Le merlan nommé Zap pèse 50.0 kg
+Il y a 1 gardien(s) assigné(s) à cet enclos.
+L'enclos 'Les Cétacés' contient 2 Cetace:
+  Le dauphin nommé Neptune pèse 250.0 kg
+  Le marsouin nommé Flipper pèse 250.0 kg
+Il y a 1 gardien(s) assigné(s) à cet enclos.
+L'enclos 'Les Reptiles' contient 2 Reptile:
+  Le python nommé Monty pèse 300.0 kg
+  Le alligator nommé Jaws pèse 300.0 kg
+Il y a 1 gardien(s) assigné(s) à cet enclos.
+L'enclos 'Les Oiseaux' contient 2 Oiseau:
+  Le perroquet nommé Polly pèse 0.8 kg
+  Le corbeau nommé Apollo pèse 0.8 kg
+Il y a 2 gardien(s) assigné(s) à cet enclos.
+L'enclos 'Les Mammifères' contient 3 Mammifere:
+  Le lion nommé Simba pèse 200.0 kg
+  Le zèbre nommé Zara pèse 200.0 kg
+  Le sanglier nommé Obélix pèse 150.0 kg
+Il y a 2 gardien(s) assigné(s) à cet enclos.
+
+======================= DÉBUT DES VISITES =======================
+[Alice, 13 ans, 3 enclos restants] entre dans le zoo.
+[Alice, 13 ans, 3 enclos restants] entre dans l'enclos 'Les Poissons'
+3 animaux et 1 gardiens sont présents: M. Smith, 
+[Alice, 13 ans, 2 enclos restants] quitte l'enclos après 5 minutes.
+[Alice, 13 ans, 2 enclos restants] entre dans l'enclos 'Les Mammifères'
+3 animaux et 2 gardiens sont présents: R. Berry, L. Skelgaard, 
+[Alice, 13 ans, 1 enclos restants] quitte l'enclos après 7 minutes.
+[Alice, 13 ans, 1 enclos restants] entre dans l'enclos 'Les Oiseaux'
+2 animaux et 2 gardiens sont présents: H. Bourassa, P. Grandbois, 
+[Alice, 13 ans, 0 enclos restants] quitte l'enclos après 14 minutes.
+[Alice, 13 ans, 0 enclos restants] quitte le zoo après un total de 26 minutes.
+[Robert, 65 ans, 1 enclos restants] entre dans le zoo.
+[Robert, 65 ans, 1 enclos restants] entre dans l'enclos 'Les Reptiles'
+2 animaux et 1 gardiens sont présents: F. Lyding, 
+[Robert, 65 ans, 0 enclos restants] quitte l'enclos après 17 minutes.
+[Robert, 65 ans, 0 enclos restants] quitte le zoo après un total de 17 minutes.
+[Judith, 56 ans, 2 enclos restants] entre dans le zoo.
+[Judith, 56 ans, 2 enclos restants] entre dans l'enclos 'Les Oiseaux'
+2 animaux et 2 gardiens sont présents: H. Bourassa, P. Grandbois, 
+[Judith, 56 ans, 1 enclos restants] quitte l'enclos après 0 minutes.
+[Judith, 56 ans, 1 enclos restants] entre dans l'enclos 'Les Mammifères'
+3 animaux et 2 gardiens sont présents: R. Berry, L. Skelgaard, 
+[Judith, 56 ans, 0 enclos restants] quitte l'enclos après 20 minutes.
+[Judith, 56 ans, 0 enclos restants] quitte le zoo après un total de 20 minutes.
+[Edgar, 6 ans, 1 enclos restants] entre dans le zoo.
+[Edgar, 6 ans, 1 enclos restants] entre dans l'enclos 'Les Cétacés'
+2 animaux et 1 gardiens sont présents: B. Patel, 
+[Edgar, 6 ans, 0 enclos restants] quitte l'enclos après 9 minutes.
+[Edgar, 6 ans, 0 enclos restants] quitte le zoo après un total de 9 minutes.
+
+======================= FIN DES VISITES =======================
+Le gardien R. Berry (#1006) a été retiré de l'enclos 'Les Mammifères' (1 gardiens).
+Le dernier gardien arrivé au zoo [R. Berry (#1006), 12.5 hrs, enclos 'null'] a été congédié.
+Le gardien H. Bourassa (#1005) a été retiré de l'enclos 'Les Oiseaux' (1 gardiens).
+Le dernier gardien arrivé au zoo [H. Bourassa (#1005), 8.2 hrs, enclos 'null'] a été congédié.
+Le gardien [L. Skelgaard (#1004), 10.5 hrs, enclos 'Les Mammifères'] ne peut pas être congédié car son enclos serait vide.
+
+======================= LE ZOO APRÈS LES VISITES =======================
+Bienvenue au zoo de Granby!
+Voici la pile des gardiens:
+  5 gardiens: [M. Smith (#1000), 10.1 hrs, enclos 'Les Poissons'] | [B. Patel (#1001), 5.2 hrs, enclos 'Les Cétacés'] | [F. Lyding (#1002), 20.3 hrs, enclos 'Les Reptiles'] | [P. Grandbois (#1003), 15.2 hrs, enclos 'Les Oiseaux'] | [L. Skelgaard (#1004), 10.5 hrs, enclos 'Les Mammifères'] | [+ 5 cellules vides]
+Et la file des visiteurs:
+  0 éléments: <null>
+Le zoo est peuplé par 12 animaux répartis dans 5 enclos:
+L'enclos 'Les Poissons' contient 3 Poisson:
+  Le thon nommé Spike pèse 100.0 kg
+  Le saumon nommé Finn pèse 100.0 kg
+  Le merlan nommé Zap pèse 50.0 kg
+Il y a 1 gardien(s) assigné(s) à cet enclos.
+L'enclos 'Les Cétacés' contient 2 Cetace:
+  Le dauphin nommé Neptune pèse 250.0 kg
+  Le marsouin nommé Flipper pèse 250.0 kg
+Il y a 1 gardien(s) assigné(s) à cet enclos.
+L'enclos 'Les Reptiles' contient 2 Reptile:
+  Le python nommé Monty pèse 300.0 kg
+  Le alligator nommé Jaws pèse 300.0 kg
+Il y a 1 gardien(s) assigné(s) à cet enclos.
+L'enclos 'Les Oiseaux' contient 2 Oiseau:
+  Le perroquet nommé Polly pèse 0.8 kg
+  Le corbeau nommé Apollo pèse 0.8 kg
+Il y a 1 gardien(s) assigné(s) à cet enclos.
+L'enclos 'Les Mammifères' contient 3 Mammifere:
+  Le lion nommé Simba pèse 200.0 kg
+  Le zèbre nommé Zara pèse 200.0 kg
+  Le sanglier nommé Obélix pèse 150.0 kg
+Il y a 1 gardien(s) assigné(s) à cet enclos.
